@@ -122,22 +122,22 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/thehackerleague/core.git",
-                    "reference": "e083ba8e10ef7c39b9a9f5a5bf97cf43be3e9420"
+                    "reference": "0136790ed9002ce052f013cd5a98e33a92b2127d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/thehackerleague/core/zipball/e083ba8e10ef7c39b9a9f5a5bf97cf43be3e9420",
-                    "reference": "e083ba8e10ef7c39b9a9f5a5bf97cf43be3e9420",
+                    "url": "https://api.github.com/repos/thehackerleague/core/zipball/0136790ed9002ce052f013cd5a98e33a92b2127d",
+                    "reference": "0136790ed9002ce052f013cd5a98e33a92b2127d",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.5",
-                    "thl/composer-installer": "dev-master"
+                    "thl/composer-installer": "0.*"
                 },
                 "require-dev": {
                     "phpunit/phpunit": "~4.0"
                 },
-                "time": "2016-06-20 10:04:51",
+                "time": "2016-06-26 05:42:32",
                 "type": "thl-module",
                 "extra": {
                     "branch-alias": {
