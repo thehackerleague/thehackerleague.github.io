@@ -1,0 +1,377 @@
+{
+    "packages": {
+        "thl/composer-installer": {
+            "v0.0.1": {
+                "name": "thl/composer-installer",
+                "version": "v0.0.1",
+                "version_normalized": "0.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/thehackerleague/composer-installer.git",
+                    "reference": "357fd184df3a2a77c77a28f3ba8292c02e292372"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/thehackerleague/composer-installer/zipball/357fd184df3a2a77c77a28f3ba8292c02e292372",
+                    "reference": "357fd184df3a2a77c77a28f3ba8292c02e292372",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer-plugin-api": "~1.0",
+                    "php": ">=5.5.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "~4.0"
+                },
+                "time": "2016-06-20 09:42:54",
+                "type": "composer-plugin",
+                "extra": {
+                    "class": "THL\\Installer\\Plugin"
+                },
+                "autoload": {
+                    "psr-4": {
+                        "THL\\Installer\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "THL\\Installer\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Sunel TR",
+                        "email": "sunelbe@gmail.com"
+                    }
+                ],
+                "description": "Composer installer for modules.",
+                "keywords": [
+                    "composer-installer",
+                    "thl"
+                ],
+                "support": {
+                    "source": "https://github.com/thehackerleague/composer-installer/tree/master",
+                    "issues": "https://github.com/thehackerleague/composer-installer/issues"
+                }
+            },
+            "v0.0.2": {
+                "name": "thl/composer-installer",
+                "version": "v0.0.2",
+                "version_normalized": "0.0.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/thehackerleague/composer-installer.git",
+                    "reference": "dd1a233a623c4c8d8e0315e1502d2c0ee3362f4c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/thehackerleague/composer-installer/zipball/dd1a233a623c4c8d8e0315e1502d2c0ee3362f4c",
+                    "reference": "dd1a233a623c4c8d8e0315e1502d2c0ee3362f4c",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer-plugin-api": "~1.0",
+                    "php": ">=5.5.0",
+                    "thl/module-autoload": "0.*"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "~4.0"
+                },
+                "time": "2016-07-04 05:51:52",
+                "type": "composer-plugin",
+                "extra": {
+                    "class": "THL\\Installer\\Plugin"
+                },
+                "autoload": {
+                    "psr-4": {
+                        "THL\\Installer\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "THL\\Installer\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Sunel TR",
+                        "email": "sunelbe@gmail.com"
+                    }
+                ],
+                "description": "Composer installer for modules.",
+                "keywords": [
+                    "composer-installer",
+                    "thl"
+                ],
+                "support": {
+                    "source": "https://github.com/thehackerleague/composer-installer/tree/v0.0.2",
+                    "issues": "https://github.com/thehackerleague/composer-installer/issues"
+                }
+            },
+            "dev-master": {
+                "name": "thl/composer-installer",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/thehackerleague/composer-installer.git",
+                    "reference": "dd1a233a623c4c8d8e0315e1502d2c0ee3362f4c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/thehackerleague/composer-installer/zipball/dd1a233a623c4c8d8e0315e1502d2c0ee3362f4c",
+                    "reference": "dd1a233a623c4c8d8e0315e1502d2c0ee3362f4c",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer-plugin-api": "~1.0",
+                    "php": ">=5.5.0",
+                    "thl/module-autoload": "0.*"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "~4.0"
+                },
+                "time": "2016-07-04 05:51:52",
+                "type": "composer-plugin",
+                "extra": {
+                    "class": "THL\\Installer\\Plugin"
+                },
+                "autoload": {
+                    "psr-4": {
+                        "THL\\Installer\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "THL\\Installer\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Sunel TR",
+                        "email": "sunelbe@gmail.com"
+                    }
+                ],
+                "description": "Composer installer for modules.",
+                "keywords": [
+                    "composer-installer",
+                    "thl"
+                ],
+                "support": {
+                    "source": "https://github.com/thehackerleague/composer-installer/tree/v0.0.2",
+                    "issues": "https://github.com/thehackerleague/composer-installer/issues"
+                }
+            }
+        },
+        "thl/core-module": {
+            "dev-master": {
+                "name": "thl/core-module",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/thehackerleague/core.git",
+                    "reference": "0136790ed9002ce052f013cd5a98e33a92b2127d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/thehackerleague/core/zipball/0136790ed9002ce052f013cd5a98e33a92b2127d",
+                    "reference": "0136790ed9002ce052f013cd5a98e33a92b2127d",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.5",
+                    "thl/composer-installer": "0.*"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "~4.0"
+                },
+                "time": "2016-06-26 05:42:32",
+                "type": "thl-module",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Modules\\Core\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Sunel TR",
+                        "email": "sunelbe@gmail.com"
+                    }
+                ],
+                "description": "The core module.",
+                "keywords": [
+                    "core",
+                    "thl"
+                ],
+                "support": {
+                    "source": "https://github.com/thehackerleague/core/tree/master",
+                    "issues": "https://github.com/thehackerleague/core/issues"
+                }
+            }
+        },
+        "thl/module-autoload": {
+            "v0.0.1": {
+                "name": "thl/module-autoload",
+                "version": "v0.0.1",
+                "version_normalized": "0.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/thehackerleague/autoload.git",
+                    "reference": "e215854afbca8cb4659f064a76d0fc7ac337ed3e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/thehackerleague/autoload/zipball/e215854afbca8cb4659f064a76d0fc7ac337ed3e",
+                    "reference": "e215854afbca8cb4659f064a76d0fc7ac337ed3e",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer-plugin-api": "~1.0",
+                    "php": ">=5.5"
+                },
+                "time": "2016-07-04 06:01:39",
+                "type": "composer-plugin",
+                "extra": {
+                    "class": "THL\\AutoloadModules\\Plugin"
+                },
+                "autoload": {
+                    "psr-4": {
+                        "THL\\AutoloadModules\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Sunel TR",
+                        "email": "sunelbe@gmail.com"
+                    }
+                ],
+                "description": "The core module.",
+                "keywords": [
+                    "core",
+                    "thl"
+                ],
+                "support": {
+                    "source": "https://github.com/thehackerleague/autoload/tree/v0.0.1",
+                    "issues": "https://github.com/thehackerleague/autoload/issues"
+                }
+            },
+            "v0.0.2": {
+                "name": "thl/module-autoload",
+                "version": "v0.0.2",
+                "version_normalized": "0.0.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/thehackerleague/autoload.git",
+                    "reference": "3d4db42e9458ab5d74463ac438552a87edda7a3f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/thehackerleague/autoload/zipball/3d4db42e9458ab5d74463ac438552a87edda7a3f",
+                    "reference": "3d4db42e9458ab5d74463ac438552a87edda7a3f",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer-plugin-api": "~1.0",
+                    "php": ">=5.5"
+                },
+                "time": "2016-07-04 06:06:00",
+                "type": "composer-plugin",
+                "extra": {
+                    "class": "THL\\AutoloadModules\\Plugin"
+                },
+                "autoload": {
+                    "psr-4": {
+                        "THL\\AutoloadModules\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Sunel TR",
+                        "email": "sunelbe@gmail.com"
+                    }
+                ],
+                "description": "The core module.",
+                "keywords": [
+                    "core",
+                    "thl"
+                ],
+                "support": {
+                    "source": "https://github.com/thehackerleague/autoload/tree/v0.0.2",
+                    "issues": "https://github.com/thehackerleague/autoload/issues"
+                }
+            },
+            "dev-master": {
+                "name": "thl/module-autoload",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/thehackerleague/autoload.git",
+                    "reference": "3d4db42e9458ab5d74463ac438552a87edda7a3f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/thehackerleague/autoload/zipball/3d4db42e9458ab5d74463ac438552a87edda7a3f",
+                    "reference": "3d4db42e9458ab5d74463ac438552a87edda7a3f",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer-plugin-api": "~1.0",
+                    "php": ">=5.5"
+                },
+                "time": "2016-07-04 06:06:00",
+                "type": "composer-plugin",
+                "extra": {
+                    "class": "THL\\AutoloadModules\\Plugin"
+                },
+                "autoload": {
+                    "psr-4": {
+                        "THL\\AutoloadModules\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Sunel TR",
+                        "email": "sunelbe@gmail.com"
+                    }
+                ],
+                "description": "The core module.",
+                "keywords": [
+                    "core",
+                    "thl"
+                ],
+                "support": {
+                    "source": "https://github.com/thehackerleague/autoload/tree/v0.0.2",
+                    "issues": "https://github.com/thehackerleague/autoload/issues"
+                }
+            }
+        }
+    }
+}
