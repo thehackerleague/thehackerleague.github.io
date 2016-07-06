@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/thehackerleague/composer-installer.git",
-                    "reference": "357fd184df3a2a77c77a28f3ba8292c02e292372"
+                    "reference": "902fb163fd818da19a818755c58e940c60a1b6c3"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/thehackerleague/composer-installer/zipball/357fd184df3a2a77c77a28f3ba8292c02e292372",
-                    "reference": "357fd184df3a2a77c77a28f3ba8292c02e292372",
+                    "url": "https://api.github.com/repos/thehackerleague/composer-installer/zipball/902fb163fd818da19a818755c58e940c60a1b6c3",
+                    "reference": "902fb163fd818da19a818755c58e940c60a1b6c3",
                     "shasum": ""
                 },
                 "require": {
@@ -23,7 +23,7 @@
                 "require-dev": {
                     "phpunit/phpunit": "~4.0"
                 },
-                "time": "2016-06-20 09:42:54",
+                "time": "2016-07-06 09:52:35",
                 "type": "composer-plugin",
                 "extra": {
                     "class": "THL\\Installer\\Plugin"
@@ -53,64 +53,7 @@
                     "thl"
                 ],
                 "support": {
-                    "source": "https://github.com/thehackerleague/composer-installer/tree/master",
-                    "issues": "https://github.com/thehackerleague/composer-installer/issues"
-                }
-            },
-            "v0.0.2": {
-                "name": "thl/composer-installer",
-                "version": "v0.0.2",
-                "version_normalized": "0.0.2.0",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/thehackerleague/composer-installer.git",
-                    "reference": "dd1a233a623c4c8d8e0315e1502d2c0ee3362f4c"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/thehackerleague/composer-installer/zipball/dd1a233a623c4c8d8e0315e1502d2c0ee3362f4c",
-                    "reference": "dd1a233a623c4c8d8e0315e1502d2c0ee3362f4c",
-                    "shasum": ""
-                },
-                "require": {
-                    "composer-plugin-api": "~1.0",
-                    "php": ">=5.5.0",
-                    "thl/module-autoload": "0.*"
-                },
-                "require-dev": {
-                    "phpunit/phpunit": "~4.0"
-                },
-                "time": "2016-07-04 05:51:52",
-                "type": "composer-plugin",
-                "extra": {
-                    "class": "THL\\Installer\\Plugin"
-                },
-                "autoload": {
-                    "psr-4": {
-                        "THL\\Installer\\": "src/"
-                    }
-                },
-                "autoload-dev": {
-                    "psr-4": {
-                        "THL\\Installer\\Tests\\": "tests/"
-                    }
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Sunel TR",
-                        "email": "sunelbe@gmail.com"
-                    }
-                ],
-                "description": "Composer installer for modules.",
-                "keywords": [
-                    "composer-installer",
-                    "thl"
-                ],
-                "support": {
-                    "source": "https://github.com/thehackerleague/composer-installer/tree/v0.0.2",
+                    "source": "https://github.com/thehackerleague/composer-installer/tree/v0.0.1",
                     "issues": "https://github.com/thehackerleague/composer-installer/issues"
                 }
             },
@@ -121,23 +64,22 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/thehackerleague/composer-installer.git",
-                    "reference": "dd1a233a623c4c8d8e0315e1502d2c0ee3362f4c"
+                    "reference": "902fb163fd818da19a818755c58e940c60a1b6c3"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/thehackerleague/composer-installer/zipball/dd1a233a623c4c8d8e0315e1502d2c0ee3362f4c",
-                    "reference": "dd1a233a623c4c8d8e0315e1502d2c0ee3362f4c",
+                    "url": "https://api.github.com/repos/thehackerleague/composer-installer/zipball/902fb163fd818da19a818755c58e940c60a1b6c3",
+                    "reference": "902fb163fd818da19a818755c58e940c60a1b6c3",
                     "shasum": ""
                 },
                 "require": {
                     "composer-plugin-api": "~1.0",
-                    "php": ">=5.5.0",
-                    "thl/module-autoload": "0.*"
+                    "php": ">=5.5.0"
                 },
                 "require-dev": {
                     "phpunit/phpunit": "~4.0"
                 },
-                "time": "2016-07-04 05:51:52",
+                "time": "2016-07-06 09:52:35",
                 "type": "composer-plugin",
                 "extra": {
                     "class": "THL\\Installer\\Plugin"
@@ -167,7 +109,7 @@
                     "thl"
                 ],
                 "support": {
-                    "source": "https://github.com/thehackerleague/composer-installer/tree/v0.0.2",
+                    "source": "https://github.com/thehackerleague/composer-installer/tree/v0.0.1",
                     "issues": "https://github.com/thehackerleague/composer-installer/issues"
                 }
             }
@@ -180,12 +122,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/thehackerleague/core.git",
-                    "reference": "0136790ed9002ce052f013cd5a98e33a92b2127d"
+                    "reference": "797f1233a83dcff886571317e50cdc73154e48d0"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/thehackerleague/core/zipball/0136790ed9002ce052f013cd5a98e33a92b2127d",
-                    "reference": "0136790ed9002ce052f013cd5a98e33a92b2127d",
+                    "url": "https://api.github.com/repos/thehackerleague/core/zipball/797f1233a83dcff886571317e50cdc73154e48d0",
+                    "reference": "797f1233a83dcff886571317e50cdc73154e48d0",
                     "shasum": ""
                 },
                 "require": {
@@ -195,16 +137,11 @@
                 "require-dev": {
                     "phpunit/phpunit": "~4.0"
                 },
-                "time": "2016-06-26 05:42:32",
+                "time": "2016-07-06 09:50:17",
                 "type": "thl-module",
-                "extra": {
-                    "branch-alias": {
-                        "dev-master": "1.0-dev"
-                    }
-                },
-                "autoload-dev": {
+                "autoload": {
                     "psr-4": {
-                        "Modules\\Core\\": "src/"
+                        "THL\\Core\\": "src/"
                     }
                 },
                 "license": [
